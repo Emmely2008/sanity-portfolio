@@ -1,8 +1,7 @@
-import sanityClient from "@sanity/client"
-import React from 'react';
+import sanityClient from "@sanity/client";
 
 // projectId found in sanity.json
-export default function sanityClient({projectId: "dkxauvcq", dataset: "production"}) {
- return (<div></div>)
-}
-
+export default sanityClient({
+  projectId: "dkxauvcq",
+  dataset: "production",
+});
